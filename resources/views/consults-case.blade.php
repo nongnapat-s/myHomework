@@ -16,7 +16,6 @@ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7T
 </head>
 <body>
     <div class="container-fluid">
-            <div class="row" >
 			@foreach ($cases as $case) 
                 @foreach ($doctors as $doctor)
                     @if ($case['doctor'] == $doctor['doctor']  )
@@ -28,7 +27,6 @@ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7T
                     @endif
                 @endforeach    
 			@endforeach
-            </div>
     </div>
 </body>
 </html>

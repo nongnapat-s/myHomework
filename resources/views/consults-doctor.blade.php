@@ -11,7 +11,6 @@
 </head>
 <body>
     <div class="container-fluid">
-            <div class="row" >
                 @foreach ($doctors as $doctor)
                         @if ($doctor['gender'] == "female")
                             <div style = "background-color: #FFCCFF" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">{{ $doctor['doctor'] }}{{" เพศหญิง"}}</div>
@@ -19,7 +18,6 @@
                             <div style = "background-color: #99CCFF" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">{{ $doctor['doctor'] }}{{" เพศชาย"}}</div>
                         @endif
                 @endforeach    
-            </div>
     </div>
 </body>
 </html>
