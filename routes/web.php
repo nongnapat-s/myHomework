@@ -12,4 +12,4 @@
 */
 
 Route::get('/consults/{title}','ConsultController@consultShow');
-// test commit
+// test commit 
