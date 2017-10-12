@@ -12,3 +12,4 @@
 */
 
 Route::get('/consults/{title}','ConsultController@consultShow');
+//test
